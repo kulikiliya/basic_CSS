@@ -125,6 +125,7 @@ body {
   text-align: center;
 }
 .team-section .position {
+  color: var(--text-color);
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
