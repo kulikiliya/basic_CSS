@@ -101,6 +101,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .features-text {
   font-size: 16px;
@@ -121,7 +122,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 .team-card .position {
