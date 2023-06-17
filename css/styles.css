@@ -1,0 +1,163 @@
+/* Colors */
+/* главный цвет для фона - #ffffff; главный цвет для шрифта - #434455 , для заголовков - #2E2F42 */
+/* header - #ffffff + line br - #E7E9FC */
+/* button - #4D5AE5 */
+/* logo - web - #4D5AE5 m studio - #2E2F42 */
+/* hero  - text #ffffff */
+
+:root {
+  --text-color: #434455;
+  --h-color: #2e2f42;
+  --pressed-state: #404bbf;
+  --primary-brand: #4d5ae5;
+  --footer-background-color: #2e2f42;
+  --secondary-background-color: #f4f4fd;
+  --white-background: #ffffff;
+  --white-text: #ffffff;
+  --footer-cloud-text: #f4f4fd;
+}
+
+body {
+  background-color: var(--white-background);
+  color: var(--text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+}
+
+/* Header */
+.nav-links-logo {
+  color: var(--h-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo {
+  color: var(--primary-brand);
+}
+.nav-links {
+  color: var(--h-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.address-links {
+  font-style: normal;
+  color: inherit;
+  text-decoration: none;
+}
+.nav-links:hover,
+.nav-links:focus,
+.address-links:hover,
+.address-links:focus {
+  color: var(--pressed-state);
+}
+
+/* hero */
+.hero {
+  background-color: var(--footer-background-color);
+}
+
+.hero-title {
+  color: var(--white-text);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+.hero-buttton {
+  color: var(--white-text);
+  background-color: var(--primary-brand);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.hero-buttton:hover,
+.hero-buttton:focus {
+  background-color: var(--pressed-state);
+}
+/* main */
+/* section 2 */
+.features-title {
+  color: var(--h-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.features-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* section 3/4 */
+.project-title,
+.team-title {
+  color: var(--h-color);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
+.team-section .employee {
+  color: var(--h-color);
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+}
+.team-section .position {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+.team-section {
+  background-color: var(--secondary-background-color);
+}
+/* footer */
+.footer-section {
+  background-color: var(--footer-background-color);
+}
+.footer-links-logo {
+  color: var(--footer-cloud-text);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer-text {
+  color: var(--footer-cloud-text);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* portfolio */
+
+/* buttons */
+.filter-button {
+  color: var(--primary-brand);
+  background-color: var(--secondary-background-color);
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--white-text);
+  background-color: var(--pressed-state);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+/* section */
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.portfolio-list {
+  font-size: 16px;
+  line-height: 1.5;
+}
