@@ -140,6 +140,7 @@ body {
 .filter-button {
   color: var(--primary-brand);
   background-color: var(--secondary-background-color);
+  cursor: pointer;
 }
 .filter-button:hover,
 .filter-button:focus {
