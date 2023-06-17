@@ -23,7 +23,13 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.02em;
 }
+.link {
+  text-decoration: none;
+}
 
+.list {
+  list-style: none;
+}
 /* Header */
 .nav-logo {
   color: var(--primary-brand);
@@ -38,13 +44,7 @@ body {
   color: var(--h-color);
 }
 
-.link {
-  text-decoration: none;
-}
-
-.list {
-  list-style: none;
-}
+/* tech  */
 
 .nav-links {
   color: var(--h-color);
@@ -77,12 +77,14 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .hero-buttton {
   color: var(--white-text);
   background-color: var(--primary-brand);
   cursor: pointer;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -110,12 +112,16 @@ body {
   color: var(--h-color);
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 .team-section .employee {
   color: var(--h-color);
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02;
   text-align: center;
 }
 .team-section .position {
@@ -126,12 +132,16 @@ body {
 .team-section {
   background-color: var(--secondary-background-color);
 }
+.team-card {
+  background-color: var(--white-background);
+}
 /* footer */
 .footer-section {
   background-color: var(--footer-background-color);
 }
-.footer-links-logo {
-  color: var(--footer-cloud-text);
+.footer-logo {
+  color: var(--primary-brand);
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -144,6 +154,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
+.foot-logo {
+  color: var(--footer-cloud-text);
+}
 
 /* portfolio */
 
@@ -151,25 +164,31 @@ body {
 .filter-button {
   color: var(--primary-brand);
   background-color: var(--secondary-background-color);
+  font-family: Roboto, sans-serif;
   cursor: pointer;
-}
-.filter-button:hover,
-.filter-button:focus {
-  color: var(--white-text);
-  background-color: var(--pressed-state);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
 }
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--white-text);
+  background-color: var(--pressed-state);
+}
 /* section */
 .portfolio-title {
+  color: var(--h-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .portfolio-list {
+  color: var(--text-color);
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
