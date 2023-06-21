@@ -8,9 +8,9 @@
 :root {
   --text-color: #434455;
   --h-color: #2e2f42;
+  --footer-background-color: #2e2f42;
   --pressed-state: #404bbf;
   --primary-brand: #4d5ae5;
-  --footer-background-color: #2e2f42;
   --secondary-background-color: #f4f4fd;
   --white-background: #ffffff;
   --white-text: #ffffff;
@@ -23,6 +23,7 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.02em;
 }
+/* Utility */
 .link {
   text-decoration: none;
 }
@@ -44,7 +45,7 @@ body {
   color: var(--h-color);
 }
 
-/* tech  */
+/* Navigation  */
 
 .nav-links {
   color: var(--h-color);
